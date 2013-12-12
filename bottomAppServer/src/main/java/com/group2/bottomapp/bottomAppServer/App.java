@@ -1,6 +1,5 @@
 package com.group2.bottomapp.bottomAppServer;
 
-
 //import java.security.MessageDigest;
 //import java.security.NoSuchAlgorithmException;
 
@@ -9,8 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-    	
-    	 
     	/*
     	String password = "";
     	 
@@ -54,13 +51,20 @@ public class App
 	// https://github.com/nebhale/spring-one-2012/tree/master/src/main/java/com
 
 /*
-
+  
+<property name="url" value="jdbc:mysql://localhost:3306/team-2" />
+<property name="username" value="team-2" />
+<property name="password" value="team-2" /> 
 
 <property name="url" value="jdbc:mysql://localhost:3306/BottomApp" />
 <property name="username" value="root" />
 <property name="password" value="" />
  
  */
+
+
+// http://java.dzone.com/articles/java-security-tutorial-%E2%80%93-step
+// http://blog.antoine.li/2010/10/22/android-trusting-ssl-certificates/
 
 //TODO JSON API Handle Exceptions, and null pointers
 
@@ -69,8 +73,6 @@ public class App
 //TODO implement Hibernate instead.
 
 // Use @Autowire instead?
-
-// Search in new thread?
 
 //TODO pagination will be needed for drinks?
 
